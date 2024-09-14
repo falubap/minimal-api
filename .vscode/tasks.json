@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/minimal-api-falubap/minimal-api-falubap.csproj",
+                "${workspaceFolder}/minimal-api-falubap.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/minimal-api-falubap/minimal-api-falubap.csproj",
+                "${workspaceFolder}/minimal-api-falubap.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/minimal-api-falubap/minimal-api-falubap.csproj"
+                "${workspaceFolder}/minimal-api-falubap.sln"
             ],
             "problemMatcher": "$msCompile"
         }
